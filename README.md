@@ -8,4 +8,6 @@ Recebe uma lista de frases e retorna uma lista das palavras-chave encontradas po
 
 ## Utilização
 
+``lua <arquivo_stopwords> <arquivo_frases>``
+
 ## Exemplos
