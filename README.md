@@ -8,4 +8,6 @@
 
 ## Utilização
 
+``lua <arquivo_stopwords> <arquivo_frases>``
+
 ## Exemplos
