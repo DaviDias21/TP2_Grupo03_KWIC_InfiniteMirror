@@ -4,7 +4,7 @@
 
 ## Funcionalidade
 
-* Recebe uma lista de frases e retorna uma lista das palavras-chave encontradas posicionadas em seu contexto, ordenadas em ordem alfabética.
+Recebe uma lista de frases e retorna uma lista das palavras-chave encontradas posicionadas em seu contexto, ordenadas em ordem alfabética.
 
 ## Utilização
 
