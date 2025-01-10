@@ -50,7 +50,8 @@ Na Command Line:
 lua kwic.lua stopwords.txt phrases.txt
 ```
 
-Saída:
+### Saída:
+
 ```
 brown cat sat A
 brown fox The quick
