@@ -38,9 +38,9 @@ end
 function testGenerateKWIC()
     local stopWordsFile = "resourses\\test_cases\\stopwords.txt"
     local phrasesFile = "resourses\\test_cases\\phrases.txt"
-    local expected = {"brown cat sat A", "brown fox The quick", "brown is The cat", "cat is brown The", "cat sat A brown", "fox The quick brown", "quick brown fox The"}
+    local expected = {"brown cat sat A", "brown fox The quick", "brown The cat is", "cat is brown The", "cat sat A brown", "fox The quick brown", "quick brown fox The"}
     local result = kwic_module.generateKWIC(stopWordsFile, phrasesFile)
-    luaunit.assertEquals(kwic_module.generateKWIC(result, expected))
+    luaunit.assertEquals(result, expected)
 end
 
 os.exit( luaunit.LuaUnit.run() )
