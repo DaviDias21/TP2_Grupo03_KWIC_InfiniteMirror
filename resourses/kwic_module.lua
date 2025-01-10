@@ -40,7 +40,7 @@ kwic_module.arrayToSet = arrayToSet
 
 function splitString(str)
     local words = {}
-    for word in string.gmatch(str, "%S+") do  -- eu copiei isso do google eu nao sei oq isso significa %S+ tem que olhar depois
+    for word in string.gmatch(str, "%S+") do  -- divide a string quando encontrar caracteres de espaço
         table.insert(words, word)
     end
     return words
